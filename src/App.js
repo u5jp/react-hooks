@@ -2,16 +2,20 @@ import React from 'react';
 import './App.css';
 // import Counter from './components/Counter'
 // import CounterHook from './components/CounterHook'
-import FormHook from './components/FomrHook'
-import ItemHook from './components/ItemHook'
+// import FormHook from './components/FomrHook'
+// import ItemHook from './components/ItemHook'
+// import ClassEffect from './components/ClassEffect'
+import EffectHook from './components/EffectHook'
 
 function App() {
   return (
     <div className="App">
       {/* <Counter /> */}
       {/* <CounterHook /> */}
-      <FormHook />
-      <ItemHook />
+      {/* <FormHook />
+      <ItemHook /> */}
+      {/* <ClassEffect/> */}
+      <EffectHook />
     </div>
   );
 }
