@@ -6,7 +6,10 @@ import './App.css';
 // import ItemHook from './components/ItemHook'
 // import ClassEffect from './components/ClassEffect'
 // import EffectHook from './components/EffectHook'
-import MouseEventEffect from './components/MouseEventEffect' 
+// import MouseEventEffect from './components/MouseEventEffect' 
+// import DataFetch from './components/DataFetch'
+import DataFetchById from './components/DataFetchById'
+
 
 function App() {
   return (
@@ -17,7 +20,9 @@ function App() {
       <ItemHook /> */}
       {/* <ClassEffect/> */}
       {/* <EffectHook /> */}
-      <MouseEventEffect/>
+      {/* <MouseEventEffect/> */}
+      {/* <DataFetch /> */}
+      <DataFetchById />
     </div>
   );
 }
