@@ -26,7 +26,7 @@ function CounterReducer() {
     <>
       <h1>カウント1:{count.firstCounter}</h1>
       <h1>カウント2:{count.secondCounter}</h1>
-      <button onClick={() => dispatch({type: 'increment1',value:1})}>increment</button>
+      <button onClick={() => dispatch({type:'increment1',value:1})}>increment</button>
       <button onClick={() => dispatch({type:'decrement1',value:1})}>decrement</button>
       <button onClick={() => dispatch({type:'increment2',value:10})}>increment</button>
       <button onClick={() => dispatch({type:'decrement2',value:10})}>decrement</button>
