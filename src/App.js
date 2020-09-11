@@ -1,14 +1,16 @@
 import React, {useEffect,useState,createContext,useReducer} from 'react';
 import './App.css';
 
-import CountRef from './components/CountRef'
+import DockTitleUpdateOne from './components/DockTitleUpdateOne'
+import DockTitleUpdateTwo from './components/DockTitleUpdateTwo'
 
 function App() {
 
   return (
     <div className="App">
-      <h1>useRef</h1>
-      <CountRef />
+      <h1>Custom Hook</h1>
+      <DockTitleUpdateOne />
+      <DockTitleUpdateTwo />
     </div>
   );
 }
