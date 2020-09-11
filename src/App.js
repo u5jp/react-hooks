@@ -1,13 +1,14 @@
 import React, {useEffect,useState,createContext,useReducer} from 'react';
 import './App.css';
 
-import WrapComponent from './components/WrapComponent'
+import CountRef from './components/CountRef'
 
 function App() {
 
   return (
     <div className="App">
-      <WrapComponent />
+      <h1>useRef</h1>
+      <CountRef />
     </div>
   );
 }
